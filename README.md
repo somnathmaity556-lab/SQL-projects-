@@ -1,4 +1,5 @@
 # SQL-projects- Book Store data Analysis
+```
 Create table Books ( 
 			Book_ID int Generated always as identity primary key,
 			Title varchar(60),
@@ -8,16 +9,18 @@ Create table Books (
 			Price  Decimal (6,2),
 			Stock Int
 );
-
+```
+```
 select * from books 
 alter table books
 alter column published_year  type Int
 using published_year:: INT
-
+```
+``
 alter table books 
 drop column Published_year, 
 add Column Published_Year int
-
+```
 Create Table Customers (
 			Customer_ID	int Generated always as identity primary key,
 			Name	Varchar(30),
